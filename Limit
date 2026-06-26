@@ -1,1 +1,2 @@
 SELECT * FROM users Limit 2;
+con esto limitamos la cantidas de resultados que traemos a la query 
