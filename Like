@@ -1,0 +1,15 @@
+SELECT * FROM USERS
+where name LIKE 'b%'
+
+SELECT * FROM USERS
+where email LIKE '%gmail.com'
+
+SELECT * FROM USERS
+where name LIKE 'b%'
+
+SELECT * FROM USERS
+where name LIKE 'b%'
+order by age;
+
+SELECT * FROM USERS
+where email LIKE'%yahoo.com';
