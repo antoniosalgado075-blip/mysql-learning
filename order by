@@ -1,0 +1,12 @@
+SELECT * FROM USERS
+order by age;  
+
+SELECT * FROM USERS
+order by age desc; 
+
+SELECT * FROM USERS
+order by age asc;
+
+SELECT * FROM USERS
+where name LIKE 'b%'
+order by age
