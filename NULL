@@ -1,0 +1,9 @@
+SELECT * FROM USERS
+where email is NULL;
+
+muestra usuarios donde informacion es nula o faltante
+
+SELECT * FROM USERS
+where email is NOT NULL;
+
+caso contrario al primero**
