@@ -1,0 +1,10 @@
+SELECT * FROM USERS
+where email NOT LIKE'%yahoo.com' AND age = 21;
+
+use this in order to combine two different conditions--
+
+SELECT * FROM USERS
+where email NOT LIKE'%yahoo.com' OR age = 21;
+
+usar para traer resltados que cumplen uno de las dos condiciones
+
