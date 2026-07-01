@@ -1,0 +1,5 @@
+SELECT * COUNT(age) from users;
+
+SELECT * MAX(age) from users;
+
+SELECT * min(age) from users;
