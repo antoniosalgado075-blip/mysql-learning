@@ -1,0 +1,6 @@
+SELECT*,
+CASE
+WHEN age >= 25 THEN 'mayor'
+ELSE 'pichonzuelo'
+END AS 'AMIGUITOS'
+FROM users;
