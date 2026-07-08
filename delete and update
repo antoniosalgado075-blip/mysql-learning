@@ -1,0 +1,2 @@
+delete from USERS where user_id = '3'; 
+update users set pais = 'veneco' where user_id = 2
