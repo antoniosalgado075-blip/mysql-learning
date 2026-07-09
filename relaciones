@@ -1,0 +1,7 @@
+create table dni(
+dni_id int auto_increment Primary key,
+dni_number int NOT null,
+user_id int,
+UNIQUE(dni_id),
+foreign key(user_id) references users(user_id)
+);  
