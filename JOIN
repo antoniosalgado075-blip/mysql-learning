@@ -1,0 +1,5 @@
+SELECT Customer.CustomerId,
+Customer.LastName,Invoice.InvoiceId
+FROM Customer
+INNER JOIN Invoice
+ON Customer.Postalcode = Invoice.BillingPostalCode;
